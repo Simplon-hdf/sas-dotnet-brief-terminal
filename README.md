@@ -152,7 +152,11 @@ Zsh est un interpréteur de commandes (shell), tout comme bash. Il fournit une i
 ```
 $ sudo apt install zsh
 ```
+### Installation sous une distribution basée sur Arch Linux
 
+```
+$ sudo pacman -S zsh
+```
 ### Paramétrage
 
 Pour définir zsh comme shell par défaut, exécuter la commande suivante :
