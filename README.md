@@ -34,6 +34,18 @@
 
 ## Commandes relatives au réseau
 
+### Ping d'un hôte
+
+    $ ping myserver.com
+
+Ping le serveur `myserver.com` et affiche le résultat.
+
+### Téléchargement d'un fichier
+
+    $ curl -O https://www.myserver.com/video.mkv
+
+Télécharge le fichier depuis l'URL `https://www.myserver.com/video.mkv` et l'enregistre dans le dossier courant sous le nom `video.mkv`
+
 ### Connexion à distance avec SSH
 
 SSH (diminutif de "Secure Shell" ou"Secure Socket Shell") est un protocole réseau permettant d'accéder à des services réseaux de manière sécurisée à travers des réseaux non sécurisés.
