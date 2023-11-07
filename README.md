@@ -26,6 +26,20 @@
     </ul>
 </details>
 
+## Consulter la documentation d'une commande
+
+Chaque commande du terminal dispose d'une documentation détaillant sa finalité et ses paramètres. Cette documentation pouvant s'afficher sur plusieurs pages, utiliser les touches <kbd>FLECHE HAUT</kbd> et <kbd>FLECHE BAS</kbd> pour naviguer ligne par ligne, et les touches <kbd>PAGE HAUT</kbd> et <kbd>PAGE BAS</kbd> pour naviguer page par page.
+
+Exemples :
+
+    $ man ls
+
+Affiche la documentation de la commande `ls`
+
+    $ man mkdir
+
+Affiche la documentation de la commande `mkdir`
+
 ## Navigation dans le système de fichiers
 
 - `pwd` : Affiche le répertoire de travail actuel.
@@ -66,6 +80,20 @@ connecte au serveur `myserver.com` sur le port 1234 en tant qu'utilisateur `user
 
 connecte au serveur `myserver.com` sur le port par défaut en tant qu'utilisateur `user` et exécute `ls -l` à distance
  
+## Raccourcis clavier
+
+Voici quelques raccourcis claviers utiles pour utiliser le terminal avec efficacité :
+
+* <kbd>CTRL+A</kbd> place le curseur en début de ligne
+* <kbd>CTRL+E</kbd> place le curseur en fin de ligne
+* <kbd>CTRL+K</kbd> efface les caractères après le curseur
+* <kbd>CTRL+U</kbd> efface les caractères avant le curseur
+* <kbd>CTRL+L</kbd> efface l'écran du terminal
+* <kbd>CTRL+C</kbd> arrête l'exécution de la commande en cours
+* <kbd>TAB</kbd> active l'auto-complétion sur les noms de fichiers et de dossiers
+* <kbd>FLECHE HAUT</kbd> navigue dans l'historique des commandes saisies en partant de la plus récente à la plus ancienne
+* <kbd>FLECHE BAS</kbd> navigue dans l'historique des commandes saisies en partant de la plus ancienne à la plus haute
+
 ## Installation et paramétrage de ZSH
 
 Zsh est un interpréteur de commandes (shell), tout comme bash. Il fournit une interface entre l'utilisateur et le système. Il est indispensable d'avoir un interpréteur de commandes pour utiliser un système GNU/Linux (et même tous les autres systèmes). Le shell par défaut dans Ubuntu est bash, c'est un shell qui a bien des avantages (notamment pour les scripts), mais il est assez limité dans certaines fonctionnalités comme l'autocomplétion. Zsh est plutôt orienté pour l'interactivité avec l'utilisateur.
