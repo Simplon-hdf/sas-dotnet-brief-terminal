@@ -26,6 +26,12 @@
     </ul>
 </details>
 
+## Navigation dans le système de fichiers
+
+- `pwd` : Affiche le répertoire de travail actuel.
+- `ls` : Liste les fichiers et répertoires dans le répertoire courant.
+- `cd` : Change de répertoire (par exemple, `cd /chemin/vers/repertoire`).
+- 
 ## Installation et paramétrage de ZSH
 
 Zsh est un interpréteur de commandes (shell), tout comme bash. Il fournit une interface entre l'utilisateur et le système. Il est indispensable d'avoir un interpréteur de commandes pour utiliser un système GNU/Linux (et même tous les autres systèmes). Le shell par défaut dans Ubuntu est bash, c'est un shell qui a bien des avantages (notamment pour les scripts), mais il est assez limité dans certaines fonctionnalités comme l'autocomplétion. Zsh est plutôt orienté pour l'interactivité avec l'utilisateur.
