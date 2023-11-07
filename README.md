@@ -26,6 +26,39 @@
     </ul>
 </details>
 
+## Découverte du terminal
+
+Le terminal permet à l'utilisateur de naviguer à travers le système de fichiers et d'exécuter des applications et des scripts.
+Sous linux, le terminal exécute par défaut le shell Bash.
+
+### Commande Linux
+
+Une commande Linux est un programme ou un utilitaire qui s'exécute en ligne de commande. Une ligne de commande est une interface qui accepte des lignes de texte et les traite en instructions pour votre ordinateur.
+
+* Un **flag** est un moyen de passer des options à la commande que vous exécutez. La plupart des commandes Linux ont une page d'aide que l'on peut appeler avec le flag `-h`. La plupart du temps, les flags sont optionnels.
+
+* Un **argument** ou paramètre est l'entrée que nous donnons à une commande pour qu'elle puisse s’exécuter correctement. Dans la plupart des cas, l'argument est un chemin d'accès à un fichier, mais il peut s'agir de tout ce que vous saisissez dans le terminal.
+
+Vous pouvez invoquer des flags en utilisant des tirets (`-`) et des doubles tirets (`--`), tandis que l'exécution des arguments dépend de l'ordre dans lequel vous les passez à la fonction.
+
+### Le prompt
+
+C'est le texte qui se trouve à gauche de la zone pour entrer la commande, et qui indique le contexte dans lequel on se trouve :
+
+    user@host:~$
+
+Le prompt se compose de 3 parties :
+
+* le nom d'utilisateur (ici `user`)
+* le nom de la machine (ici `host`)
+* le dossier dans lequel on se trouve (ici `~`, représentant le répertoire `home` de l'utilisateur)
+
+La commande est saisie après le prompt :
+
+    user@host:~$ ls
+
+Ici, la commande `ls` (lister le contenu du répertoire courant) est exécutée en tant qu'utilisateur `user`, sur l'hôte `host` depuis le répertoire `~` (`home`)
+
 ## Consulter la documentation d'une commande
 
 Chaque commande du terminal dispose d'une documentation détaillant sa finalité et ses paramètres. Cette documentation pouvant s'afficher sur plusieurs pages, utiliser les touches <kbd>FLECHE HAUT</kbd> et <kbd>FLECHE BAS</kbd> pour naviguer ligne par ligne, et les touches <kbd>PAGE HAUT</kbd> et <kbd>PAGE BAS</kbd> pour naviguer page par page.
