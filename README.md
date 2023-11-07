@@ -26,6 +26,28 @@
     </ul>
 </details>
 
+## Commandes relatives au réseau
+
+### Connexion à distance avec SSH
+
+SSH (diminutif de "Secure Shell" ou"Secure Socket Shell") est un protocole réseau permettant d'accéder à des services réseaux de manière sécurisée à travers des réseaux non sécurisés.
+
+Le serveur SSH écoute par défaut sur le port 22, mais un autre port peut-être utilisé.
+
+Quelques commandes de base :
+
+    $ ssh user@myserver.com
+
+connecte au serveur `myserver.com` sur le port par défaut 22 en tant qu'utilisateur `user`
+
+    $ ssh user@myserver.com -p 1234
+
+connecte au serveur `myserver.com` sur le port 1234 en tant qu'utilisateur `user`
+
+    $ ssh user@myserver.com 'ls -l'
+
+connecte au serveur `myserver.com` sur le port par défaut en tant qu'utilisateur `user` et exécute `ls -l` à distance
+
 ## Installation et paramétrage de ZSH
 
 Zsh est un interpréteur de commandes (shell), tout comme bash. Il fournit une interface entre l'utilisateur et le système. Il est indispensable d'avoir un interpréteur de commandes pour utiliser un système GNU/Linux (et même tous les autres systèmes). Le shell par défaut dans Ubuntu est bash, c'est un shell qui a bien des avantages (notamment pour les scripts), mais il est assez limité dans certaines fonctionnalités comme l'autocomplétion. Zsh est plutôt orienté pour l'interactivité avec l'utilisateur.
