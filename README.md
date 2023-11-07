@@ -45,6 +45,11 @@ Affiche la documentation de la commande `mkdir`
 - `pwd` : Affiche le répertoire de travail actuel.
 - `ls` : Liste les fichiers et répertoires dans le répertoire courant.
 - `cd` : Change de répertoire (par exemple, `cd /chemin/vers/repertoire`).
+- 
+## Affichage du contenu de fichiers
+
+- `cat` fichier : Affiche le contenu d'un fichier.
+- `more` fichier ou less fichier : Permet de parcourir le contenu d'un fichier page par page.
 
 ## Commandes relatives au réseau
 
