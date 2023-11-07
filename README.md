@@ -26,6 +26,8 @@
     </ul>
 </details>
 
+test commit
+
 ## Découverte du terminal
 
 Le terminal permet à l'utilisateur de naviguer à travers le système de fichiers et d'exécuter des applications et des scripts.
