@@ -103,9 +103,42 @@ Ping le serveur `myserver.com` et affiche le résultat.
 
 ### Téléchargement d'un fichier
 
-    $ curl -O https://www.myserver.com/video.mkv
+    $ curl -o https://www.myserver.com/video.mkv
+    $ wget -O https://www.myserver.com/video.mkv
 
 Télécharge le fichier depuis l'URL `https://www.myserver.com/video.mkv` et l'enregistre dans le dossier courant sous le nom `video.mkv`
+
+### Afficher les informations sur le réseau
+
+    $ ifconfig
+
+Cette commande liste les interfaces réseaux et permet d'obtenir l'IP et la MAC liée à chacune d'entre
+
+### Afficher le nom d'hôte associé à une IP
+
+    $ host domain.com
+
+### Effectuer un DNS Lookup
+
+    $ dig domain.com
+    $ nslookup domain.com
+
+### Afficher la liste des ports TCP ouverts
+
+    $ netstat -at
+
+### Afficher la route menant à une destination
+
+    $ traceroute -T 1.2.3.4
+    $ tracepath 1.2.3.4
+
+### Afficher le WHOIS d'un domaine
+
+    $ whois domain.com
+
+### Afficher les ports ouverts sur un hôte
+
+    $ nmap domain.com
 
 ### Connexion à distance avec SSH
 
