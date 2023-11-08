@@ -1,6 +1,6 @@
 ## Alias
 
-Voici quelques alias utiles, ne pas oublier de 
+Voici quelques alias utiles, ne pas oublier de
     source ~/.bashrc
 
 ### Relatifs à git
