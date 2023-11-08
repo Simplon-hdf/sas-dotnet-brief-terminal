@@ -127,6 +127,12 @@ Affiche la documentation de la commande `mkdir`
 - `locate nom_fichier` : Recherche un fichier en utilisant une base de données pré-indexée.
 - `grep motif fichier` : Recherche un motif dans un fichier ou des fichiers.
 
+## Compression et décompression
+
+- `tar -cvzf fichier.tar.gz dossier` : Compresse un répertoire dans un fichier tar.gz.
+- `tar -xvzf fichier.tar.gz` : Décompresse un fichier tar.gz.
+- `zip -r nom_archive.zip dossier` : Crée une archive ZIP à partir d'un répertoire.
+
 ## Commandes relatives au réseau
 
 ### Ping d'un hôte
