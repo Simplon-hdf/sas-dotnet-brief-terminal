@@ -121,6 +121,12 @@ Affiche la documentation de la commande `mkdir`
 - `Enregistrer :` En mode normal, tapez `w`
 - `Quitter :` En mode normal, tapez `q`
 
+## Recherche de fichiers
+
+- `find chemin -name nom_fichier` : Recherche un fichier par nom.
+- `locate nom_fichier` : Recherche un fichier en utilisant une base de données pré-indexée.
+- `grep motif fichier` : Recherche un motif dans un fichier ou des fichiers.
+
 ## Commandes relatives au réseau
 
 ### Ping d'un hôte
