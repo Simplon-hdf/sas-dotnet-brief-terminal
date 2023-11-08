@@ -133,6 +133,25 @@ Affiche la documentation de la commande `mkdir`
 - `tar -xvzf fichier.tar.gz` : Décompresse un fichier tar.gz.
 - `zip -r nom_archive.zip dossier` : Crée une archive ZIP à partir d'un répertoire.
 
+## Utilitaires système
+
+- `date` : Affiche la date et l'heure actuelles.
+- `who` : Affiche les utilisateurs connectés.
+- `df` : Affiche l'utilisation de l'espace disque.
+- `du` : Affiche l'utilisation de l'espace disque pour un répertoire.
+- `man commande` : Affiche le manuel d'utilisation d'une commande spécifique.
+- `history` : Affiche l'historique des commandes précédemment exécutées.
+- `clear` : Efface le contenu du terminal.
+
+## Gestion des processus
+
+- `ps` : Affiche les processus en cours d'exécution.
+- `top` : Affiche une liste en temps réel des processus en cours d'exécution.
+- `kill PID` : Arrête un processus en utilisant son ID de processus (PID).
+- `Ctrl + C` : Interrompt un processus en cours d'exécution dans le terminal.
+- `bg` : Exécute un processus en arrière-plan.
+- `fg` : Fait revenir un processus en premier plan.
+
 ## Commandes relatives au réseau
 
 ### Ping d'un hôte
