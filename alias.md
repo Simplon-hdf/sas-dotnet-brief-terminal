@@ -1,16 +1,16 @@
-## Alias
+# Commandes relatives aux alias
 
 Voici quelques alias utiles, ne pas oublier de
     source ~/.bashrc
 
-### Relatifs à git
+## Relatifs à git
     alias g='git'
     alias gs='git status'
     alias ga='git add'
     alias gc='git commit'
     alias gp='git push'
 
-### Commandes générales
+## Commandes générales
 
     alias c='clear'  # Efface l'écran du terminal
     alias h='history'  # Affiche l'historique des commandes
@@ -20,14 +20,14 @@ Voici quelques alias utiles, ne pas oublier de
     alias d='df -h'  # Affiche l'utilisation de l'espace disque avec des valeurs lisibles
     alias duh='du -sh * | sort -h'  # Affiche la taille des répertoires et les trie par taille
 
-### Management de paquets 
+## Management de paquets 
 
     alias update='sudo apt update'  # Met à jour les informations des paquets
     alias upgrade='sudo apt upgrade'  # Met à jour les paquets installés
     alias install='sudo apt install'  # Installe un nouveau paquet
     alias remove='sudo apt remove'  # Supprime un paquet
 
-### Alias pour Docker
+## Alias pour Docker
 
     alias d='docker'
     alias dps='docker ps'  # Liste les conteneurs en cours d'exécution
