@@ -1,4 +1,4 @@
-# Raccourcis clavier sur le terminal
+# Raccourcis clavier
 
 * <kbd>CTRL+A</kbd> place le curseur en début de ligne
 * <kbd>CTRL+E</kbd> place le curseur en fin de ligne
