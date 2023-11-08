@@ -95,6 +95,32 @@ Affiche la documentation de la commande `mkdir`
 - `cat` fichier : Affiche le contenu d'un fichier.
 - `more` fichier ou less fichier : Permet de parcourir le contenu d'un fichier page par page.
 
+## Éditeurs de fichiers
+
+### Nano
+
+- `Ouvrir un fichier :` `nano nom_du_fichier`
+- `Enregistrer :` `Ctrl` + `O`, puis appuyez sur `Enter`
+- `Quitter :` `Ctrl` + `X`
+
+### Vim
+
+- `Ouvrir un fichier :` `vim nom_du_fichier`
+- `Enregistrer :` En mode normal, tapez `:w`
+- `Quitter :` En mode normal, tapez `:q`
+
+### Emacs
+
+- `Ouvrir un fichier :` `emacs nom_du_fichier`
+- `Enregistrer :` En mode normal, tapez `Ctrl` + `X`, puis `Ctrl` + `S`
+- `Quitter :` En mode normal, tapez `Ctrl` + `X`, puis `Ctrl` + `C`
+
+### Ed
+
+- `Ouvrir un fichier :` `ed nom_du_fichier`
+- `Enregistrer :` En mode normal, tapez `w`
+- `Quitter :` En mode normal, tapez `q`
+
 ## Commandes relatives au réseau
 
 ### Ping d'un hôte
