@@ -152,6 +152,14 @@ Affiche la documentation de la commande `mkdir`
 - `bg` : Exécute un processus en arrière-plan.
 - `fg` : Fait revenir un processus en premier plan.
 
+## Gestion des utilisateurs et des permissions
+
+- `sudo commande` : Exécute une commande avec des privilèges d'administrateur.
+- `useradd nom_utilisateur` : Crée un nouvel utilisateur.
+- `passwd nom_utilisateur` : Modifie le mot de passe d'un utilisateur.
+- `chmod permissions fichier` : Modifie les permissions d'accès à un fichier.
+- `chown propriétaire:fichier` : Change le propriétaire d'un fichier.
+
 ## Commandes relatives au réseau
 
 ### Ping d'un hôte
